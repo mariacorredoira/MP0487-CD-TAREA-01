@@ -18,7 +18,7 @@ public class TextFieldFrame extends JFrame
    // TextFieldFrame constructor adds JTextFields to JFrame
    public TextFieldFrame()
    {
-      super("Testing JTextField and JPasswordField");
+      super("PRIMER CAMBIO MODIFICADO PARA EL EXAMEN");
       setLayout(new FlowLayout());
 
       // construct textfield with 10 columns
@@ -26,11 +26,11 @@ public class TextFieldFrame extends JFrame
       add(textField1); // add textField1 to JFrame
 
       // construct textfield with default text
-      textField2 = new JTextField("Enter text here");
+      textField2 = new JTextField("SEGUNDO CAMBIO MODIFICADO");
       add(textField2); // add textField2 to JFrame
 
       // construct textfield with default text and 21 columns
-      textField3 = new JTextField("Uneditable text field", 21);
+      textField3 = new JTextField("TERCER CAMBIO MODIFICADO", 21);
       textField3.setEditable(false); // disable editing
       add(textField3); // add textField3 to JFrame
 
